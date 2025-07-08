@@ -15,11 +15,14 @@ FounderFinder is a lightweight and powerful Chrome Extension that scrapes emails
 - ⚡ **Lightweight**, no login required
 
 ---
-
 ## 📸 Screenshots
 
-> Include screenshots in your repo, e.g. `screenshots/extension.png`
+### 🔍 Popup UI
+![Popup](screenshots/image.png)
 
+### 📊 Dashboard View
+
+![Dashboard](image.png)
 ---
 
 ## 🔧 Setup Instructions
