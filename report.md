@@ -82,7 +82,6 @@ Build a lightweight Chrome Extension that:
 - ✅ Chrome Extension Codebase (GitHub)
 - ✅ `README.md` with setup instructions
 - ✅ One-Page Report (this file)
-- ✅ 1–2 Minute Demo Video
 - ✅ Resume Attached
 
 ---
