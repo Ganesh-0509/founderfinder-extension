@@ -58,6 +58,7 @@ git clone https://github.com/Ganesh-0509/founderfinder-extension.git
 
 ## 🗂️ File Structure
 
+```
 founderfinder-extension/
 │
 ├── manifest.json # Chrome extension config
@@ -68,7 +69,7 @@ founderfinder-extension/
 ├── README.md # This file
 └── ... (screenshots / assets)
 
-
+```
 ---
 
 ## 📊 Lead Scoring Logic
