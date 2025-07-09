@@ -99,3 +99,15 @@ The following permissions are required for the extension to function:
   - `chrome.runtime`
   - `chrome.tabs`
   - `chrome.scripting`
+
+---
+
+## ⚠️ License & Disclaimer
+
+This project is licensed under the [MIT License](./LICENSE).  
+© 2025 Ganesh Kumar T. All rights reserved.
+
+This Chrome Extension was built as part of the Caprae Capital Internship Challenge 2025.  
+Any reproduction, redistribution, or reuse of the codebase must include proper attribution.
+
+Plagiarism or unauthorized publication of this work without credit will be considered a violation of this license and may result in academic or legal consequences.
