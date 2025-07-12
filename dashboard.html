@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Founder Leads Dashboard</title>
+  <title>SmartLead AI Dashboard</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -87,6 +87,10 @@
     .actions {
       margin-top: 16px;
     }
+    td img {
+      vertical-align: middle;
+      margin-right: 4px;
+    }
 
     .actions button {
       margin-right: 10px;
@@ -105,13 +109,14 @@
 </head>
 <body>
   <div class="container">
-    <h2>🚀 FounderFinder Dashboard</h2>
+    <h2>📋 SmartLead AI Dashboard</h2>
 
     <!-- 🔘 Buttons -->
     <div class="actions">
       <button id="copyBtn">Copy Selected</button>
       <button id="downloadBtn">Download CSV</button>
       <button id="downloadJsonBtn">Download JSON</button>
+      <button id="tagWithAiBtn">🤖 Tag Leads with AI</button>
     </div>
 
     <!-- 🔍 Filters + Search -->
@@ -130,16 +135,18 @@
       <div>
         <label><input type="checkbox" id="filterBusinessOnly" /> Company Emails Only</label>
         <label style="margin-left: 10px;"><input type="checkbox" id="filterStrongSocials" /> Score ≥ 5</label>
-        <label style="margin-left: 10px;"><input type="checkbox" id="selectAll" /> Select All</label>
+        <label style="margin-left: 10px;"><input type="checkbox" id="filterBookmarkedOnly" /> ⭐ Bookmarked Only</label>
       </div>
     </div>
+    <div id="leadCountLabel" style="margin: 8px 0; font-weight: 500; color: #444;"></div>
 
     <!-- 📋 Table -->
     <div style="overflow-x: auto; max-height: 450px; border: 1px solid #ccc; border-radius: 6px;">
       <table id="leadsTable" style="width: 100%; border-collapse: collapse; font-size: 13px;">
         <thead>
           <tr>
-            <th></th>
+            <th><input type="checkbox" id="selectAll"></th>
+            <th>★</th>
             <th>Type</th>
             <th>Value</th>
             <th>Score</th>

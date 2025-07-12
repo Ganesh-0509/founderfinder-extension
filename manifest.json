@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Lead Scraper",
+  "name": "SmartLead AI",
   "version": "1.0",
-  "description": "Scrapes emails and social links from any website.",
+  "description": "AI-powered tool to extract, analyze, and score contact leads from any website.",
   "permissions": ["activeTab", "tabs", "scripting", "storage"],
   "host_permissions": ["<all_urls>"],
   "action": {

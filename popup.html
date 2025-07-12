@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Lead Scraper</title>
+  <title>SmartLead AI – Quick View</title>
   <style>
   body {
     font-family: Arial, sans-serif;
@@ -27,6 +27,7 @@
     padding: 8px;
     border-radius: 5px;
   }
+  
 
   li {
     margin-bottom: 6px;
@@ -50,7 +51,10 @@
     background-color: #e9ecef;
     font-weight: bold;
   }
-
+  td img {
+    vertical-align: middle;
+    margin-right: 4px;
+  }
 
   button {
     margin-top: 10px;
@@ -79,7 +83,7 @@
   <input type="checkbox" id="filterStrongSocials" />
   Show only high-signal socials (score ≥ 5)
 </label>
-
+  <div id="leadCountLabel" style="margin: 8px 0; font-weight: 500; color: #444;"></div>
   <div style="overflow-x: auto; max-height: 250px; border: 1px solid #ccc; border-radius: 6px; padding: 4px; background: white;">
   <input type="text" id="searchInput" placeholder="🔍 Search leads..." style="width: 100%; padding: 6px; margin-bottom: 10px; border-radius: 4px; border: 1px solid #ccc;" />
   <table id="leadsTable" style="width: 100%; border-collapse: collapse; font-size: 12px;">
@@ -103,6 +107,7 @@
   <button id="downloadBtn">Download CSV</button>
   <button id="downloadJsonBtn">Download JSON</button>
   <button id="viewDashboardBtn">View Full Dashboard</button>
+  <button id="tagWithAiBtn">🤖 Tag Leads with AI</button>
 
   <script src="popup.js"></script>
 </body>
